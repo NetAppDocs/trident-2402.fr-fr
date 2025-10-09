@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: trident-get-started/kubernetes-deploy.html 
-keywords: deploy, astra trident, methods, operator, tridentctl, helm, tanzu, vmware 
+keywords: deploy, astra trident, methods, operator, tridentctl, helm, tanzu, vmware, netapp console 
 summary: 'Vous pouvez installer Astra Trident à l"aide de l"opérateur Trident (manuellement ou à l"aide de Helm) ou à l"aide de `tridentctl`. Cette rubrique fournit des informations importantes pour sélectionner le processus d"installation qui vous convient.' 
 ---
 = Découvrez l'installation d'Astra Trident
@@ -115,10 +115,10 @@ Lorsque la version Kubernetes du cluster est mise à niveau vers une version pri
 NOTE: Si le cluster est mis à niveau vers une version non prise en charge, l'opérateur empêche l'installation d'Astra Trident. Si Astra Trident a déjà été installé avec l'opérateur, un avertissement s'affiche pour indiquer que l'Astra Trident est installé sur une version Kubernetes non prise en charge.
 
 ====
-.Gestion de clusters <strong>™ avec BlueXP (anciennement Cloud Manager)</strong>
+.<strong>Gestion des clusters Kubernetes à l'aide de la NetApp Console</strong>
 [%collapsible]
 ====
-Avec link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/concept-kubernetes.html["Astra Trident avec BlueXP"^], Vous pouvez effectuer la mise à niveau vers la dernière version d'Astra Trident, ajouter et gérer des classes de stockage, les connecter aux environnements de travail et sauvegarder des volumes persistants à l'aide de Cloud Backup Service. BlueXP prend en charge le déploiement Astra Trident à l'aide de l'opérateur Trident, soit manuellement, soit via Helm.
+Avec Astra Trident utilisant NetApp Console, vous pouvez mettre à niveau vers la dernière version d' Astra Trident, ajouter et gérer des classes de stockage et les connecter aux environnements de travail, et sauvegarder des volumes persistants à l'aide du Cloud Backup Service.  La console prend en charge le déploiement d' Astra Trident à l'aide de l'opérateur Trident , manuellement ou à l'aide de Helm.
 
 ====
 
